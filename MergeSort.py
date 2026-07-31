@@ -26,4 +26,12 @@ def merge_sort(arr):
                 k+=1
 arr=[18,27,13,19,8,3]
 merge_sort(arr)
-print("sorted array : ",arr)                        
+print("sorted array : ",arr)   
+# Merge Sort
+# Time Complexity:
+# Best Case    : O(n log n)
+# Average Case : O(n log n)
+# Worst Case   : O(n log n)
+#
+# Space Complexity:
+# O(n)                     
