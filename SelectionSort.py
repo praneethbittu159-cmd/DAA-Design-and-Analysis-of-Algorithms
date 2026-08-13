@@ -16,7 +16,7 @@ print("sorted Array:")
 print(arr)
 
 #Selection Sort is a sorting algorithm that repeatedly
-# finds the smallest element from the unsorted portion of the array and places it at the beginning.
+#finds the smallest element from the unsorted portion of the array and places it at the beginning.
 #Time complexity:
 #Best case:o(n^2)
 #Average case:o(n^2)
