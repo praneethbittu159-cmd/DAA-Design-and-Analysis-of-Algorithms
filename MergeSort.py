@@ -27,6 +27,8 @@ def merge_sort(arr):
 arr=[18,27,13,19,8,3]
 merge_sort(arr)
 print("sorted array : ",arr)   
+#Merge Sort is a divide-and-conquer sorting algorithm.
+#It divides the array into smaller parts, sorts those parts, and then merges them back together.
 # Merge Sort
 # Time Complexity:
 # Best Case    : O(n log n)
