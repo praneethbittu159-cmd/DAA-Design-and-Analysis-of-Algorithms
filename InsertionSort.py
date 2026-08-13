@@ -22,3 +22,5 @@ arr= [12,3,8,9,2]
 insertion_sort(arr)
 
 print("sorted array : ",arr)
+#Insertion Sort is a sorting algorithm that builds the sorted array one element at a time.
+#Take one element and insert it into its correct position among the already-sorted elements.
