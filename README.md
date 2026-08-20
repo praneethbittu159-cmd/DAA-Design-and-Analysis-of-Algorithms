@@ -1,34 +1,51 @@
 # DAA-Design-and-Analysis-of-Algorithms
 
 #Practical-1
+
 #Summary
+
 Sorting algorithms are fundamental techniques used to arrange data in a specific order, such as ascending or descending order. In this study, five sorting algorithms—Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort—were implemented and their time complexities were analyzed. Bubble Sort, Selection Sort, and Insertion Sort are simple comparison-based algorithms with an average and worst-case time complexity of O(n²), making them suitable mainly for small datasets. Merge Sort uses the divide-and-conquer approach and provides a consistent O(n log n) time complexity. Quick Sort also uses divide-and-conquer and has an average time complexity of O(n log n), although its worst-case complexity can become O(n²) depending on pivot selection. The analysis shows that the choice of sorting algorithm depends on factors such as input size, data arrangement, memory availability, and required performance.
 
 #conclusion
+
 The implementation and analysis demonstrate that no single sorting algorithm is ideal for every situation. Bubble Sort, Selection Sort, and Insertion Sort are easy to understand and implement but become inefficient for large datasets because of their quadratic time complexity. Merge Sort provides reliable and efficient performance of O(n log n) but requires additional memory for merging. Quick Sort is generally very efficient in practice and uses less additional memory, but its performance depends significantly on the choice of pivot. Therefore, for small datasets, simple algorithms such as Insertion Sort can be effective, while for large datasets, Merge Sort or a well-implemented Quick Sort is generally preferred. The time-complexity analysis helps in selecting an appropriate sorting algorithm based on the size and characteristics of the input data.
 
 #Practical-2
+
 #Summary
+
 Linear Search and Binary Search are fundamental searching algorithms used to find a particular element in a collection of data. Linear Search checks elements one by one and can work on both sorted and unsorted data. Its average and worst-case time complexity is O(n). Binary Search repeatedly divides a sorted array into two halves, significantly reducing the number of comparisons required. Its average and worst-case time complexity is O(log n). However, Binary Search requires the input data to be sorted before searching.
 
 #Conclusion
+
 The implementation and time analysis show that Binary Search is more efficient than Linear Search for large sorted datasets because its logarithmic time complexity allows it to eliminate half of the remaining search space after every comparison. Linear Search is simpler and more flexible because it does not require sorted data, making it useful for small or unsorted datasets. Therefore, the choice between the two algorithms depends on the nature and size of the data. For unsorted or small datasets, Linear Search is appropriate, whereas for large and sorted datasets, Binary Search provides better performance.
 
 #Practical-3
+
 #Summary
+
 Max-Heap Sort is a comparison-based sorting algorithm that uses the Max-Heap data structure to arrange elements in ascending order. In a Max-Heap, the parent node is always greater than or equal to its child nodes, making the largest element available at the root. The algorithm first builds a Max-Heap from the given array and then repeatedly swaps the root element with the last unsorted element. After each swap, the remaining heap is adjusted using the heapify operation. This process continues until the entire array is sorted. Max-Heap Sort has a best, average, and worst-case time complexity of O(n log n) and requires O(1) auxiliary space apart from the recursive call stack.
 
 #Conclusion
+
 The implementation of the Max-Heap Sort algorithm demonstrates how a heap data structure can be effectively used for sorting. Its major advantage is its guaranteed O(n log n) time complexity in all cases, making it suitable for large datasets where predictable performance is important. Since it performs sorting in-place, it also requires very little additional memory. However, unlike some other sorting algorithms, Heap Sort is not stable and may be less efficient in practice than well-implemented Quick Sort for certain datasets. Overall, Max-Heap Sort is an efficient and reliable sorting technique with consistent performance.
 
 #Practical-4
+
 #Summary
+
 The factorial program was implemented using both iterative and recursive methods. The iterative approach uses a loop to multiply numbers from 1 to n, while the recursive approach repeatedly calls the same function with n-1 until the base case is reached. Both methods produce the same result and have a time complexity of O(n). However, the iterative method requires O(1) space, whereas the recursive method requires O(n) space because of recursive function calls.
 
 #Conclusion
+
 Both iterative and recursive methods can efficiently calculate the factorial of a number. The recursive method provides a clear representation of the mathematical definition of factorial and is useful for understanding recursion. However, the iterative method is generally more memory-efficient because it does not use the call stack. Therefore, for practical applications where memory efficiency is important, the iterative method is preferred, while the recursive method is useful for learning and demonstrating recursive problem-solving.
+
 #Practical-7
+
 #Summary
+
 The Making Change Problem is a classic Dynamic Programming problem in which we determine the minimum number of coins required to make a given amount using a set of available coin denominations. The algorithm stores the solutions of smaller amounts in a DP array and uses these previously calculated results to solve larger amounts. For each amount, every available coin is considered, and the minimum number of coins is selected. This avoids repeated calculations and makes the solution more efficient than a simple recursive approach. The time complexity is O(n × m), where n is the target amount and m is the number of available coin denominations, while the space complexity is O(n).
+
 #Conclusion
+
 The implementation of the Making Change Problem demonstrates how Dynamic Programming can efficiently solve problems with overlapping subproblems and optimal substructure. By storing the minimum number of coins required for smaller amounts, the algorithm avoids unnecessary repeated calculations. The approach provides an efficient solution with O(n × m) time complexity and O(n) space complexity. Therefore, Dynamic Programming is an effective technique for solving the minimum coin change problem, especially when the target amount and number of denominations are large.
