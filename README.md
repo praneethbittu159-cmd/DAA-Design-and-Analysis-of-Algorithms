@@ -49,3 +49,14 @@ The Making Change Problem is a classic Dynamic Programming problem in which we d
 #Conclusion
 
 The implementation of the Making Change Problem demonstrates how Dynamic Programming can efficiently solve problems with overlapping subproblems and optimal substructure. By storing the minimum number of coins required for smaller amounts, the algorithm avoids unnecessary repeated calculations. The approach provides an efficient solution with O(n × m) time complexity and O(n) space complexity. Therefore, Dynamic Programming is an effective technique for solving the minimum coin change problem, especially when the target amount and number of denominations are large.
+
+#Practical-5
+
+#Summary
+
+The 0/1 Knapsack Problem is an optimization problem where we have a set of items, each having a weight and a profit, and a knapsack with a fixed capacity. Each item can either be selected completely (1) or not selected (0).
+
+#Conclusion
+
+The 0/1 Knapsack algorithm using Dynamic Programming efficiently finds the maximum possible profit while keeping the total weight within the given capacity. It avoids checking every possible combination by storing and reusing solutions to smaller subproblems. It is different from Fractional Knapsack, which uses a Greedy approach because fractional items are allowed.
+
