@@ -60,3 +60,14 @@ The 0/1 Knapsack Problem is an optimization problem where we have a set of items
 
 The 0/1 Knapsack algorithm using Dynamic Programming efficiently finds the maximum possible profit while keeping the total weight within the given capacity. It avoids checking every possible combination by storing and reusing solutions to smaller subproblems. It is different from Fractional Knapsack, which uses a Greedy approach because fractional items are allowed.
 
+#Practical-6
+
+#Summary
+
+Matrix Chain Multiplication is a Dynamic Programming problem used to find the most efficient order of multiplying a sequence of matrices.
+The order of matrices remains unchanged, but the parentheses can be changed.
+
+#Conclusion
+
+Matrix Chain Multiplication is an important Dynamic Programming technique used to determine the most efficient order for multiplying a sequence of matrices. It does not change the order of matrices; instead, it finds the optimal placement of parentheses to minimize the number of scalar multiplications. By storing solutions to smaller subproblems in a DP table, it avoids repeated calculations and efficiently finds the minimum multiplication cost.
+
